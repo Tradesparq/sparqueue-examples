@@ -18,16 +18,16 @@ class ExampleJob():
 
     # we have an unused *args and **kwargs just to collect extraneous arguments
     def perform(self, reporter, string, *args, **kwargs):
-        reporter.step('count length of %s' % string)
+        reporter.step('Count length of %s' % string)
         length = len(string)
 
-        reporter.step('iterate %s' % string, length)
+        reporter.step('Iterate %s' % string, length)
         chars = []
         for i in string:
             reporter.increment()
             chars.append(i)
 
-        reporter.step('check for failure')
+        reporter.step('Check for failure...')
         self.injected.conditionalFail()
 
         return {
