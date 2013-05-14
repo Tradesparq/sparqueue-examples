@@ -1,0 +1,1 @@
+# an example of job for sparqueue
