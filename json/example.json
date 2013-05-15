@@ -1,7 +1,7 @@
 {
     "class": "example.job.ExampleJob",
     "install": {
-        "pip": "git+git://git@github.com:Tradesparq/sparqueue-examples.git"
+        "pip": "git+ssh://git@github.com/Tradesparq/sparqueue-examples.git"
     },
     "vars": {
         "string": "Hello World"
