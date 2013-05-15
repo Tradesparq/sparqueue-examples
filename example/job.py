@@ -31,7 +31,8 @@ class ExampleJob():
         self.injected.conditionalFail()
 
         return {
-            'chars': chars
+            'chars': chars,
+            'length': length
         }
 
     @staticmethod

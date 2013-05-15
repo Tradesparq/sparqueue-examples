@@ -1,0 +1,9 @@
+{
+    "class": "example.job.ExampleJob",
+    "install": {
+        "pip": "git+file:///home/rngadam/tradesparq/sparqueue-example"
+    },
+    "vars": {
+        "string": "Hello World"
+    }
+}
